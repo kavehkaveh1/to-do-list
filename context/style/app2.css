@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  font-family: 'Indie Flower', cursive;
+  background-color: #faf3e0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #ff6f61;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff4c3b;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #fffaf0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  background-color: #ff6f61;
+}
+
+li button:hover {
+  background-color: #ff4c3b;
+}
